@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactorsApplication", "PrimeFactorsApplication\PrimeFactorsApplication.csproj", "{7FFAF6F4-9DC9-4139-BA5D-2607CBE94C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactorsLibrary", "PrimeFactorsLibrary\PrimeFactorsLibrary.csproj", "{D3BA9172-F39A-4A70-9583-AA5BDC4767C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FFAF6F4-9DC9-4139-BA5D-2607CBE94C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFAF6F4-9DC9-4139-BA5D-2607CBE94C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFAF6F4-9DC9-4139-BA5D-2607CBE94C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFAF6F4-9DC9-4139-BA5D-2607CBE94C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3BA9172-F39A-4A70-9583-AA5BDC4767C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3BA9172-F39A-4A70-9583-AA5BDC4767C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3BA9172-F39A-4A70-9583-AA5BDC4767C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3BA9172-F39A-4A70-9583-AA5BDC4767C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB0BC11C-197E-47DE-A592-5F91872B77C7}
+	EndGlobalSection
+EndGlobal
