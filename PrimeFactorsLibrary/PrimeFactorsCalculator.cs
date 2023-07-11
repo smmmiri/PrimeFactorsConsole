@@ -35,6 +35,7 @@
         private static void WriteToConsole()
         {
             result = string.Join(" x ", NumberPrimeFactors.OrderByDescending(n => n));
+            NumberPrimeFactors.Clear();
         }
     }
 }
