@@ -21,7 +21,7 @@
         public static void Calculate(int number, int factor = 0)
         {
             if (number <= 1)
-                WriteToConsole();
+                SetResult();
             else if (number % PrimeFactors[factor] == 0)
             {
                 NumberPrimeFactors.Add(PrimeFactors[factor]);
@@ -32,7 +32,7 @@
 
         }
 
-        private static void WriteToConsole()
+        private static void SetResult()
         {
             result = string.Join(" x ", NumberPrimeFactors.OrderByDescending(n => n));
             NumberPrimeFactors.Clear();
