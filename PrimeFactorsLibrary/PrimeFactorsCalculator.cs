@@ -21,15 +21,18 @@
         public static void Calculate(int number, int factor = 0)
         {
             if (number <= 1)
+            {
                 SetResult();
+            }
             else if (number % PrimeFactors[factor] == 0)
             {
                 NumberPrimeFactors.Add(PrimeFactors[factor]);
                 Calculate(number / PrimeFactors[factor]);
             }
             else
+            {
                 Calculate(number, ++factor);
-
+            }
         }
 
         private static void SetResult()
