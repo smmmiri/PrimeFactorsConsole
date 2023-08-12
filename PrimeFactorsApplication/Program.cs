@@ -12,7 +12,9 @@ do
     {
         var number = int.Parse(input);
         if (number <= 1 || number > 1000)
+        {
             throw new OverflowException();
+        }
 
         PrimeFactorsCalculator.Calculate(number);
         Console.WriteLine($"Prime factors of {number} are: {PrimeFactorsCalculator.Result}");
