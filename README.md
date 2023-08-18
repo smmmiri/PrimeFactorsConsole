@@ -1,8 +1,8 @@
-# PrimeFactorsConsole
+# Prime Factors Console
 
 ## Project Description
 
-This console application calculate prime factors of all number between 1 and 1000 and print it for you.
+This console application calculates prime factors of all number between 1 and 1000 and prints it for you.
 
 ## What is this code good for practicing?
 
